@@ -13,8 +13,8 @@ public class Robot extends TimedRobot {
   private AnalogInput turnPot;
   private AnalogInput drivePot;
   
-  public static final double TURN_SPEED = 0.1;
-  public static final double DRIVE_SPEED = 0.1;
+  public static final double TURN_SPEED = 0.15;
+  public static final double DRIVE_SPEED = 0.15;
   
   @Override
   public void robotInit() {
